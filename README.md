@@ -1,5 +1,8 @@
 # Bookmaster  |  React 
 
+![Skärmavbild 2024-05-15 kl  17 38 46](https://github.com/JoohanK/Bookmaster/assets/145558750/f5d267c6-5e7a-4387-b713-6041c0be3537)
+
+
 ## What is Bookmaster
 Bookmaster is a web application designed for book enthusiasts.
 Built using the Next.js framework and React, it allows users to manage their personal library online.
@@ -48,5 +51,4 @@ npm run dev
 # or
 yarn dev
 ```
-![Skärmavbild 2024-05-15 kl  17 38 46](https://github.com/JoohanK/Bookmaster/assets/145558750/f5d267c6-5e7a-4387-b713-6041c0be3537)
 
