@@ -9,6 +9,7 @@ With a user-friendly interface and robust functionality, Bookmaster makes managi
 
 ## Dependencys
 
+- React
 - Typescript
 - Next.js
 - Redux toolkit
