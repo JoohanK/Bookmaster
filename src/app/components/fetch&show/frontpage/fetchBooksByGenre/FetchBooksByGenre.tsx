@@ -6,12 +6,14 @@ type FetchBooksByGenreProps = {
   count: number;
 };
 
+//hämta böcker efter genre
 const FetchBooksByGenre = ({ genre, count }: FetchBooksByGenreProps) => {
   const { data, isLoading, error } = useFetchSingle<{ works: any[] }>(
     `https://openlibrary.org/subjects/${genre}.json`
   );
   const [books, setBooks] = useState<any[]>([]);
 
+  //använder boknyckeln för att hämta cover_i
   useEffect(() => {
     if (data) {
       Promise.all(
