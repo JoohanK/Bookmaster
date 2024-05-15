@@ -48,5 +48,5 @@ npm run dev
 # or
 yarn dev
 ```
-![Skärmavbild 2024-05-15 kl  17 37 47](https://github.com/JoohanK/Bookmaster/assets/145558750/76fd1ed8-e18a-4eaa-87a9-5c4256c313bb)
+![Skärmavbild 2024-05-15 kl  17 38 46](https://github.com/JoohanK/Bookmaster/assets/145558750/f5d267c6-5e7a-4387-b713-6041c0be3537)
 
