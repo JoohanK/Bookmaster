@@ -1,0 +1,39 @@
+.author-list {
+  display: flex;
+  width: 70vw;
+  flex-direction: column;
+
+  .cover-and-bio {
+    display: flex;
+    border: 2px solid black;
+    padding: $secondaryPadding;
+    margin-top: $secondaryMargin;
+
+    .author-bio {
+      margin-left: $secondaryMargin;
+    }
+
+    .click-name {
+      cursor: pointer;
+
+      &:hover {
+        color: rgb(112, 112, 112);
+      }
+    }
+
+    img {
+      min-height: 12rem;
+      min-width: 2rem;
+      background-color: rgb(219, 219, 219);
+    }
+  }
+
+  p {
+    margin-top: $primaryMargin;
+  }
+}
+.MuiPagination-root {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}

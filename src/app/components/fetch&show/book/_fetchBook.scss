@@ -1,0 +1,39 @@
+.book-list {
+  display: flex;
+  width: 70vw;
+  flex-direction: column;
+
+  .cover-and-info {
+    display: flex;
+    padding: $secondaryPadding;
+
+    border: 2px solid black;
+    margin-top: $secondaryMargin;
+
+    .click-title {
+      cursor: pointer;
+
+      &:hover {
+        color: rgb(112, 112, 112);
+      }
+    }
+
+    .book-info {
+      margin-left: $secondaryMargin;
+    }
+
+    .alternative-img {
+      width: 11rem;
+      height: 15rem;
+    }
+  }
+
+  p {
+    margin-top: $primaryMargin;
+  }
+}
+.MuiPagination-root {
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+}

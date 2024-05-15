@@ -1,0 +1,166 @@
+.title-page {
+  text-align: center;
+  margin-top: $bigMargin;
+  font-size: 3rem;
+}
+
+.agg-data-box {
+  display: flex;
+  justify-content: center;
+  margin-top: $secondaryMargin;
+
+  div {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px black;
+    padding: $secondaryPadding;
+    min-width: 12%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+  }
+}
+
+.read-and-review-box {
+  display: flex;
+  margin-top: $secondaryMargin;
+  justify-content: center;
+  margin-bottom: $bigMargin;
+
+  .remove-buttons {
+    button {
+      margin-left: 1rem;
+    }
+  }
+
+  button {
+    background-color: rgb(226, 226, 226);
+    color: black;
+    border: 1px solid rgb(130, 130, 130);
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(209, 130, 130);
+    }
+
+    span {
+      transition: transform 0.3s;
+    }
+
+    &:hover {
+      span {
+        transform: scale(1.1);
+      }
+    }
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: $secondaryMargin;
+    margin-top: $secondaryMargin;
+    font-size: 2.5rem;
+  }
+  li {
+    margin: 1.5rem;
+    border: solid 1px black;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    padding: $secondaryPadding;
+
+    .button-position {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+    }
+  }
+
+  .read-box {
+    border: solid 2px black;
+    width: 30%;
+    margin-right: $secondaryMargin;
+    height: 100%;
+
+    h3 {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+  .review-box {
+    border: solid 2px black;
+    width: 40%;
+    height: 100%;
+    margin-left: $secondaryMargin;
+    .saved-reviews {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: solid 1px black;
+      margin: $secondaryMargin;
+      padding: $secondaryPadding;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+
+      h3 {
+        font-size: 1.5rem;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1.2rem;
+        font-style: italic;
+        margin: 1rem;
+        word-wrap: break-word;
+      }
+
+      .MuiRating-root {
+        font-size: 1.5rem;
+      }
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      input {
+        width: 80%;
+        height: 2rem;
+        padding: $primaryPadding;
+        margin-bottom: $primaryMargin;
+      }
+
+      .MuiRating-root {
+        margin-bottom: $primaryMargin;
+        font-size: 2rem;
+      }
+    }
+
+    button {
+      &:hover {
+        background-color: rgb(192, 233, 176);
+      }
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .img-position {
+      display: flex;
+      justify-content: center;
+      img {
+        box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+        margin: $secondaryMargin;
+      }
+    }
+  }
+}

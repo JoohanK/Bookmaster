@@ -1,0 +1,76 @@
+.modal-author {
+  z-index: 1;
+  margin-top: 2rem;
+}
+
+.name-and-button {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ReactModal__Content {
+  display: flex;
+  max-width: 40vw;
+
+  justify-self: center;
+
+  img {
+    margin-top: $secondaryMargin;
+    margin-bottom: $secondaryMargin;
+  }
+
+  .close-button {
+    position: fixed;
+    bottom: 0;
+
+    margin: $secondaryMargin;
+    &:hover {
+      background-color: rgb(209, 130, 130);
+    }
+  }
+
+  button {
+    min-width: 15rem;
+    margin-left: 1rem;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(130, 130, 130);
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(192, 233, 176);
+    }
+
+    span {
+      transition: transform 0.3s;
+    }
+
+    &:hover {
+      span {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+.ReactModal__Overlay {
+  margin: 0;
+}
+
+.modal-author {
+  padding: 1rem;
+
+  > * {
+  }
+}
+
+.popup-modal {
+  > * {
+    margin: 0.5rem;
+  }
+}
+
+.bot-info {
+  font-weight: 1000;
+}

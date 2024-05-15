@@ -1,0 +1,21 @@
+.header {
+  min-height: 15rem;
+  padding: $secondaryPadding;
+  border: solid 3px #0a0909;
+  display: flex;
+  justify-content: center;
+
+  align-self: center;
+  position: relative;
+  margin-left: 12rem;
+  margin-right: 12rem;
+  margin-top: $secondaryMargin;
+
+  .bookmaster {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #0a0909;
+    text-decoration: none;
+    align-self: center;
+  }
+}

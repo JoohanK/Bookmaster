@@ -1,0 +1,15 @@
+@import "./fetchBooksByGenre/fetchBooksByGenre";
+
+.showing-books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  &::first-letter {
+    text-transform: uppercase;
+    font-size: 9rem;
+  }
+}

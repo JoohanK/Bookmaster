@@ -1,0 +1,79 @@
+@import "../../../scss/Variables/colors";
+@import "../../../scss/Variables/margin&padding";
+
+.HamburgerMenu {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 90%;
+  justify-content: center;
+
+  position: absolute;
+  margin-left: 5rem;
+
+  .hamburger {
+    cursor: pointer;
+    margin-top: 0.35rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    transition-duration: 0.5s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    .x-icon {
+      margin-top: 4.15rem;
+    }
+  }
+
+  .menu {
+    min-width: 10rem;
+    margin-top: 5rem;
+    border: 3px solid #000000;
+    animation-name: fadeInDown;
+    animation-duration: 0.5s;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+
+    .menu-item {
+      padding: $secondaryPadding;
+      margin: $primaryMargin;
+      transition-duration: 500ms;
+      cursor: pointer;
+      animation-name: fadeInTop;
+      animation-duration: 0.5s;
+      display: flex;
+      text-decoration: none;
+
+      &:hover {
+        background-color: #e3e3e3;
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInTop {
+  from {
+    opacity: 0;
+    transform: translatey(-200px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

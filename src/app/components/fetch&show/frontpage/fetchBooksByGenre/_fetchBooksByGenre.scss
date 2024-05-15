@@ -1,0 +1,37 @@
+.showing-genre {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  border-top: solid 3px black;
+
+  margin: $secondaryMargin;
+  li {
+    max-width: 15rem;
+    margin: $primaryMargin;
+  }
+
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+    margin-bottom: $primaryMargin;
+  }
+}
+
+.genre-text {
+  font-size: 4rem;
+  &::first-letter {
+    text-transform: uppercase;
+    font-size: 9rem;
+  }
+}

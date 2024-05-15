@@ -1,0 +1,56 @@
+.h1-page {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: $secondaryMargin;
+  margin-bottom: $secondaryMargin;
+}
+
+.favorite-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: $bigMargin;
+
+  ul {
+    list-style-type: none;
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: $secondaryMargin;
+    margin-top: $secondaryMargin;
+    font-size: 2.5rem;
+  }
+
+  li {
+    margin: 1.5rem;
+    border: solid 1px black;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
+    padding: $secondaryPadding;
+
+    .button-position {
+      display: flex;
+      justify-content: space-between;
+      align-items: end;
+      button {
+        background-color: rgb(226, 226, 226);
+        color: black;
+        border: 1px solid rgb(130, 130, 130);
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgb(209, 130, 130);
+        }
+
+        span {
+          transition: transform 0.3s;
+        }
+
+        &:hover {
+          span {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
+}
