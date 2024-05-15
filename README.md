@@ -19,10 +19,10 @@ With a user-friendly interface and robust functionality, Bookmaster makes managi
 - Mui
 
 ## Installation:
-
-```bash
 -clone repo
 -cd project folder
+```bash
+
 
 npm install
 # or
