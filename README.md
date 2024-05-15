@@ -20,7 +20,7 @@ With a user-friendly interface and robust functionality, Bookmaster makes managi
 
 ## Installation:
 
-- clone repo
+- Clone repo
 - cd project folder
 
 ```bash
