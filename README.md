@@ -48,3 +48,5 @@ npm run dev
 # or
 yarn dev
 ```
+![Skärmavbild 2024-05-15 kl  17 37 47](https://github.com/JoohanK/Bookmaster/assets/145558750/76fd1ed8-e18a-4eaa-87a9-5c4256c313bb)
+
