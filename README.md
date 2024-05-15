@@ -1,6 +1,6 @@
 # Bookmaster  |  React 
 
-![Skärmavbild 2024-05-15 kl  17 38 46](https://github.com/JoohanK/Bookmaster/assets/145558750/f5d267c6-5e7a-4387-b713-6041c0be3537)
+![Skärmavbild 2024-05-15 kl  17 46 18](https://github.com/JoohanK/Bookmaster/assets/145558750/60dfe1e8-ab24-4e4a-9aff-06c5556fb4b7)
 
 
 ## What is Bookmaster
@@ -51,5 +51,5 @@ npm run dev
 # or
 yarn dev
 ```
-![Skärmavbild 2024-05-15 kl  17 46 18](https://github.com/JoohanK/Bookmaster/assets/145558750/60dfe1e8-ab24-4e4a-9aff-06c5556fb4b7)
 
+![Skärmavbild 2024-05-15 kl  17 38 46](https://github.com/JoohanK/Bookmaster/assets/145558750/f5d267c6-5e7a-4387-b713-6041c0be3537)
