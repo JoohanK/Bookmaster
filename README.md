@@ -21,7 +21,6 @@ With a user-friendly interface and robust functionality, Bookmaster makes managi
 ## Api
 https://openlibrary.org/developers/api
 
-# Endpoints
 - Book search
 - Authors
 - Subjects
