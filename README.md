@@ -1,26 +1,42 @@
-# Bookmaster | React | JohanK
+# Bookmaster  |  React 
 
-Bookmaster is a web application designed for book enthusiasts. Built using the Next.js framework and React, it allows users to manage their personal library online. Users can add books to their collection, rate them, and keep track of what they've read. The application also provides an average rating feature, giving users an overview of their reading preferences. With a user-friendly interface and robust functionality, Bookmaster makes managing your reading list a breeze.
+![Skärmavbild 2024-05-15 kl  17 38 46](https://github.com/JoohanK/Bookmaster/assets/145558750/f5d267c6-5e7a-4387-b713-6041c0be3537)
 
-Figma:
-https://www.figma.com/file/1WwtvInG7xCrTw080CBxO1/Exam-BookMaster-JohanK?type=design&node-id=0-1&mode=design&t=tU7MIpKD1qCKKqrt-0
+
+## What is Bookmaster
+Bookmaster is a web application designed for book enthusiasts.
+Built using the Next.js framework and React, it allows users to manage their personal library online.
+Users can add books to their collection, rate them, and keep track of what they've read.
+The application also provides an average rating feature, giving users an overview of their reading preferences. 
+With a user-friendly interface and robust functionality, Bookmaster makes managing your reading list a breeze.
 
 ## Dependencys
 
-Typescript
-Next.js
-Redux toolkit
-Sass
-react-modal
-react-dom
-franc-min
-Mui
+- React
+- Typescript
+- Next.js
+- Redux toolkit
+- Sass
+- react-modal
+- react-dom
+- franc-min
+- Mui
+
+## Api
+https://openlibrary.org/developers/api
+
+- Book search
+- Authors
+- Subjects
+- Covers 
 
 ## Installation:
 
+- Clone repo
+- cd project folder
+
 ```bash
--clone repo
--cd project folder
+
 
 npm install
 # or
@@ -35,3 +51,8 @@ npm run dev
 # or
 yarn dev
 ```
+
+
+## 
+![Skärmavbild 2024-05-15 kl  17 46 18](https://github.com/JoohanK/Bookmaster/assets/145558750/60dfe1e8-ab24-4e4a-9aff-06c5556fb4b7)
+
