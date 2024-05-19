@@ -18,6 +18,7 @@ With a user-friendly interface and robust functionality, Bookmaster makes managi
 - Redux toolkit
 - Sass
 - react-modal
+- react-redux
 - react-dom
 - franc-min
 - Mui
@@ -55,4 +56,5 @@ yarn dev
 
 ## 
 ![Skärmavbild 2024-05-15 kl  17 46 18](https://github.com/JoohanK/Bookmaster/assets/145558750/60dfe1e8-ab24-4e4a-9aff-06c5556fb4b7)
+
 
