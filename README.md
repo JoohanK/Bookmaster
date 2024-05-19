@@ -54,6 +54,5 @@ yarn dev
 ```
 ##
 
-![365656360_284205057635317_6996765957287418145_n](https://github.com/JoohanK/Bookmaster/assets/145558750/002f5adc-4ba8-4c34-934c-7eff24e63347)
 
 
