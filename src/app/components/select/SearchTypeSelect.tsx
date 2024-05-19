@@ -9,10 +9,10 @@ type SearchTypeSelectProps = {
   handleSearchTypeChange: (event: SelectChangeEvent<string>) => void;
 };
 
-const SearchTypeSelect: React.FC<SearchTypeSelectProps> = ({
+const SearchTypeSelect = ({
   searchType,
   handleSearchTypeChange,
-}) => (
+}: SearchTypeSelectProps) => (
   <FormControl fullWidth>
     <InputLabel id="search-type-label">Search Type</InputLabel>
     <Select
