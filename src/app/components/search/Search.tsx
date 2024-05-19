@@ -7,8 +7,8 @@ import Button from "@mui/material/Button";
 
 const Search = () => {
   const [searchType, setSearchType] = useState<string>("book");
-  const [searchResult, setSearchResult] = useState<string>("");
   const [searchTerm, setSearchTerm] = useState<string>("");
+  const [searchResult, setSearchResult] = useState<string>("");
   const [displayedSearchTerm, setDisplayedSearchTerm] = useState<string>("");
 
   const handleSearchTypeChange = (e: SelectChangeEvent<string>) => {
