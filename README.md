@@ -53,4 +53,4 @@ npm run dev
 yarn dev
 ```
 
-
+/Users/johankristensson/Desktop/Bookmaster/src/assets/no-cover.png
