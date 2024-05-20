@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import FetchBook from "../fetch&show/book/FetchBook";
 import FetchAuthor from "../fetch&show/author/FetchAuthor";
 import SearchTypeSelect from "../select/SearchTypeSelect";
-import { SelectChangeEvent } from "@mui/material";
 import Button from "@mui/material/Button";
 
 const Search = () => {
