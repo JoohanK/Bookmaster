@@ -31,6 +31,7 @@ https://openlibrary.org/developers/api
 - Authors
 - Subjects
 - Covers
+- Work & Edition
 
 ## Installation:
 
