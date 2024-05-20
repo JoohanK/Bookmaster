@@ -41,10 +41,16 @@ const Search = () => {
           </Button>
         </div>
         {searchResult && searchType === "book" && (
-          <FetchBook url={searchResult} searchTerm={displayedSearchTerm} />
+          <FetchBook
+            url={searchResult}
+            displayedSearchTerm={displayedSearchTerm}
+          />
         )}
         {searchResult && searchType === "author" && (
-          <FetchAuthor url={searchResult} searchTerm={displayedSearchTerm} />
+          <FetchAuthor
+            url={searchResult}
+            displayedSearchTerm={displayedSearchTerm}
+          />
         )}
       </div>
     </>

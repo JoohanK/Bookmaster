@@ -7,10 +7,10 @@ import { AuthorData } from "../../../types/types";
 
 type FetchProps = {
   url: string;
-  searchTerm: string;
+  displayedSearchTerm: string;
 };
 
-const FetchAuthor = ({ url, searchTerm }: FetchProps) => {
+const FetchAuthor = ({ url, displayedSearchTerm }: FetchProps) => {
   const { data, isLoading, error } = useFetch<AuthorData>(url);
   const [selectedAuthor, setSelectedAuthor] = useState<AuthorData | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -50,7 +50,7 @@ const FetchAuthor = ({ url, searchTerm }: FetchProps) => {
   return (
     <>
       <div className="author-list">
-        <h2>Search: "{searchTerm}"</h2>
+        <h2>Search: "{displayedSearchTerm}"</h2>
         <div>
           {data &&
             data.slice(startIndex, endIndex).map((author, index) => (
