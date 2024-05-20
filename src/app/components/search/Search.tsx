@@ -11,11 +11,6 @@ const Search = () => {
   const [searchResult, setSearchResult] = useState<string>("");
   const [displayedSearchTerm, setDisplayedSearchTerm] = useState<string>("");
 
-  const handleSearchTypeChange = (e: SelectChangeEvent<string>) => {
-    setSearchType(e.target.value as string);
-    setSearchResult("");
-  };
-
   const handleSearch = () => {
     const url =
       searchType === "book"
@@ -33,7 +28,8 @@ const Search = () => {
         <div className="search-items">
           <SearchTypeSelect
             searchType={searchType}
-            handleSearchTypeChange={handleSearchTypeChange}
+            setSearchType={setSearchType}
+            setSearchResult={setSearchResult}
           />
           <input
             type="text"

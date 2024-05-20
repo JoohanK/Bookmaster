@@ -17,13 +17,13 @@ export const readBookSlice = createSlice({
     },
     addReview: (state, action) => {
       const book = state.value.find((book) => book.key === action.payload.key);
-      if (
-        book &&
-        action.payload.review !== undefined &&
-        action.payload.rating !== null
-      ) {
-        book.review = action.payload.review;
-        book.rating = action.payload.rating;
+      if (book) {
+        if (action.payload.review !== undefined) {
+          book.review = action.payload.review;
+        }
+        if (action.payload.rating !== null) {
+          book.rating = action.payload.rating;
+        }
       }
     },
     removeReview: (state, action) => {
