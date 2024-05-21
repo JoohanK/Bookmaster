@@ -39,4 +39,3 @@ export const readBookSlice = createSlice({
 export const { addReadBook, removeReadBook, addReview, removeReview } =
   readBookSlice.actions;
 export default readBookSlice.reducer;
-export type { ReadBookState };

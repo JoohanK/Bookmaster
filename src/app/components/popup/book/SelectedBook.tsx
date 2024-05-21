@@ -52,7 +52,7 @@ const SelectedBook = ({
             <div className="title-box">
               <h1>{title}</h1>
               <p>
-                <strong>Author:</strong> {author}
+                <strong>Author:</strong> {author.join(", ")}
               </p>
               <p>
                 <strong>First publish year:</strong> {firstPublishYear}

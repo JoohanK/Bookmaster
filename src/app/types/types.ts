@@ -1,3 +1,11 @@
+export type favAuthorState = {
+  value: { key: string; name: string; img: string; work_count: number }[];
+};
+
+export type favBookState = {
+  value: { key: string; title: string; author: string; img: string }[];
+};
+
 export type ReadBookState = {
   value: {
     key: string;
@@ -10,14 +18,6 @@ export type ReadBookState = {
   }[];
 };
 
-export type favAuthorState = {
-  value: { key: string; name: string; img: string; work_count: number }[];
-};
-
-export type favBookState = {
-  value: { key: string; title: string; author: string; img: string }[];
-};
-
 export type BookData = {
   title: string;
   author_name: string[];
@@ -26,7 +26,7 @@ export type BookData = {
   number_of_pages_median: number;
   cover_i: number;
   first_sentence: string[];
-  reviews?: string[];
+  reviews?: string;
   rating?: number;
 };
 
