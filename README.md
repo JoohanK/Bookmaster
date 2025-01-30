@@ -17,9 +17,6 @@ With a user-friendly interface and robust functionality, Bookmaster makes managi
 - Next.js
 - Redux toolkit
 - Sass
-- react-modal
-- react-redux
-- franc-min
 - Mui
 
 ## Api
