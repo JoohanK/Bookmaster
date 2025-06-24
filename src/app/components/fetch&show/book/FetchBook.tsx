@@ -51,7 +51,7 @@ const FetchBook = ({ url, displayedSearchTerm }: FetchProps) => {
   return (
     <>
       <div className="book-list">
-        <h1>Search: "{displayedSearchTerm}"</h1>
+        <h1>Search: {displayedSearchTerm}</h1>
         {data &&
           data.slice(startIndex, endIndex).map((book, index) => {
             const englishFirstSentence =

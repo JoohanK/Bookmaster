@@ -50,7 +50,7 @@ const FetchAuthor = ({ url, displayedSearchTerm }: FetchProps) => {
   return (
     <>
       <div className="author-list">
-        <h2>Search: "{displayedSearchTerm}"</h2>
+        <h2>Search: {displayedSearchTerm}</h2>
         <div>
           {data &&
             data.slice(startIndex, endIndex).map((author, index) => (
